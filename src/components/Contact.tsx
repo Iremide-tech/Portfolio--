@@ -15,12 +15,12 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="px-6 py-20 max-w-7xl mx-auto">
+    <section id="contact" className="px-6 py-16 md:py-24 max-w-7xl mx-auto">
       <form
         onSubmit={handleSubmit}
-        className="max-w-xl mx-auto p-6 bg-white/80 backdrop-blur rounded-lg shadow-md space-y-4"
+        className="max-w-xl mx-auto p-5 md:p-8 bg-white/80 backdrop-blur rounded-lg shadow-md space-y-4"
       >
-        <h3 className="text-lg font-semibold">Get in touch</h3>
+        <h3 className="text-xl font-semibold mb-2">Get in touch</h3>
 
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1">

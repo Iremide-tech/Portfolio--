@@ -10,9 +10,9 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="max-w-4xl mx-auto px-6 py-20">
-      <h2 className="text-3xl font-semibold mb-6">Skills</h2>
-      <p className="text-gray-600 mb-8">A selection of technologies and proficiencies.</p>
+    <section id="skills" className="max-w-4xl mx-auto px-6 py-16 md:py-24">
+      <h2 className="text-2xl md:text-3xl font-semibold mb-4 md:mb-6">Skills</h2>
+      <p className="text-sm md:text-base text-gray-600 mb-8">A selection of technologies and proficiencies.</p>
 
       <div className="space-y-6">
         {skills.map((s) => (

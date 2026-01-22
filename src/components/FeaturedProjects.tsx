@@ -8,12 +8,12 @@ const projects = [
         image: "/images/Phishguard.png",
         link: "https://github.com/Iremide-tech/Phishguard.git"
     },
-{
-    title: "Bud-AI",
-    description: "An Ai companion for kids to help them learn and grow.",
-    image: "/images/Bud.png",
-    link: "https://bud-ai-xi.vercel.app"
-},
+    {
+        title: "Bud-AI",
+        description: "An Ai companion for kids to help them learn and grow.",
+        image: "/images/Bud.png",
+        link: "https://bud-ai-xi.vercel.app"
+    },
     {
         title: "Kraven-OS",
         description: "A set of cybersecurity tools.",
@@ -24,10 +24,10 @@ const projects = [
 
 export default function FeaturedProjects() {
     return (
-        <section id="projects" className="px-6 py-20 max-w-7xl mx-auto bg-gray-50/50">
-            <div className="flex items-center gap-4 mb-12">
-                <h2 className="text-3xl font-medium">Featured Projects</h2>
-                <span className="text-gray-500 text-sm">A selection of recent work</span>
+        <section id="projects" className="px-6 py-16 md:py-24 max-w-7xl mx-auto bg-gray-50/50">
+            <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-12">
+                <h2 className="text-2xl md:text-3xl font-medium">Featured Projects</h2>
+                <span className="text-gray-500 text-xs md:text-sm">A selection of recent work</span>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
